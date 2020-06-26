@@ -1,5 +1,5 @@
 {
-    "name": "m1shk0/substrinfinder",
+    "name": "m1shk0/substringfinder",
     "type": "library",
     "require": {
         "phpunit/phpunit": "^9.2"
