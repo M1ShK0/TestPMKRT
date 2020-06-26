@@ -9,5 +9,7 @@
             "name": "MiShKa",
             "email": "petrovmichail6@gmail.com"
         }
-    ]
+    ],
+    "license": "MIT",
+    "description" : "test task for promokrot"
 }
