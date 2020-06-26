@@ -1,0 +1,13 @@
+{
+    "name": "m1shk0/substrinfinder",
+    "type": "library",
+    "require": {
+        "phpunit/phpunit": "^9.2"
+    },
+    "authors": [
+        {
+            "name": "MiShKa",
+            "email": "petrovmichail6@gmail.com"
+        }
+    ]
+}
