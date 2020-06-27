@@ -62,7 +62,7 @@ class SubStringFinder {
         $linesReader = new FileLinesReader();
 
         foreach ($linesReader->readLines($filepath) as $line) {
-            $substrPos = strpos($line, $substring);
+            $substrPos = mb_strpos($line, $substring);
 
             if ($substrPos !== false) {
                 if ($occurrenceNumber - 1 === 0) {
@@ -94,7 +94,7 @@ class SubStringFinder {
         $res         = [];
         $lineNumber  = 1;
         foreach ($linesReader->readLines($filepath) as $line) {
-            $substrPos = strpos($line, $substring);
+            $substrPos = mb_strpos($line, $substring);
 
             if ($substrPos !== false) {
                 $res[] = [$lineNumber, $substrPos];

@@ -35,7 +35,7 @@ class SubstringFinderTest extends TestCase {
 
 
         $this->assertSame(
-            [4, 29],
+            [4, 16],
             $finder->findSubStringInFile(
                 self::SUBSTRING_FOR_FIND_SUCCESS,
                 self::FILE_NAME_TXT
@@ -102,7 +102,7 @@ class SubstringFinderTest extends TestCase {
 
 
         $this->assertSame(
-            [2, 262],
+            [2, 256],
             $finder->findSubStringInFile(
                 self::SUBSTRING_FOR_FIND_SUCCESS_REMOTE,
                 self::REMOTE_FILE_NAME_TXT
@@ -123,7 +123,7 @@ class SubstringFinderTest extends TestCase {
 
 
         $this->assertSame(
-            [[355, 5], [366, 5]],
+            [[355, 2], [366, 2]],
             $finder->findAllSubStringInFile(
                 self::SUBSTRING_FOR_FIND_SUCCESS_FOR_ALL,
                 self::FILE_NAME_TXT

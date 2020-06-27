@@ -149,7 +149,7 @@ class ValidatorTest extends TestCase {
         $finder->setConfig($config);
 
         $this->assertSame(
-            [2, 262],
+            [2, 256],
             $finder->findSubStringInFile(
                 self::SUBSTRING_FOR_FIND_SUCCESS_REMOTE,
                 self::REMOTE_FILE_NAME_TXT
