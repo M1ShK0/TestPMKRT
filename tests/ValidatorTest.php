@@ -6,7 +6,7 @@ namespace SubstringFinder\tests;
 use Exception;
 use PHPUnit\Framework\TestCase;
 use SubStringFinder\config\config;
-use SubStringFinder\SubStringFinder;
+use SubStringFinder\modules\SubStringFinder;
 
 class ValidatorTest extends TestCase {
 

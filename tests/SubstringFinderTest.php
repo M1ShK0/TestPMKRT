@@ -7,7 +7,7 @@ require __DIR__ . "/../modules/SubStringFinder.php";
 use Exception;
 use PHPUnit\Framework\TestCase;
 use SubStringFinder\config\config;
-use SubStringFinder\SubStringFinder;
+use SubStringFinder\modules\SubStringFinder;
 
 
 class SubstringFinderTest extends TestCase {

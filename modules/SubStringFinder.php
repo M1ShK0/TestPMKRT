@@ -1,6 +1,6 @@
 <?php
 
-namespace SubStringFinder;
+namespace SubStringFinder\modules;
 
 require __DIR__ . "/../config/config.php";
 require __DIR__ . "/Validator.php";
