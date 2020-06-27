@@ -2,6 +2,8 @@
     "name": "m1shk0/substringfinder",
     "type": "library",
     "require": {
+        "symfony/yaml": "^5.1",
+        "phpunit/phpunit": "^9.2"
     },
     "authors": [
         {
