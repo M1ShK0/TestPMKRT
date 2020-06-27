@@ -1,8 +1,8 @@
 <?php
 
-namespace SubStringFinder\modules;
+namespace SubStringFinder;
 
-use SubStringFinder\config\config;
+use Config\config;
 use Exception;
 
 

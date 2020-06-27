@@ -1,12 +1,13 @@
 <?php
 
-namespace SubstringFinder\tests;
+namespace Tests;
 
 
 use Exception;
 use PHPUnit\Framework\TestCase;
-use SubStringFinder\config\config;
-use SubStringFinder\modules\SubStringFinder;
+
+use Config\config;
+use SubStringFinder\SubStringFinder;
 
 class ValidatorTest extends TestCase {
 
@@ -17,8 +18,8 @@ class ValidatorTest extends TestCase {
     const REMOTE_FILE_NAME_TXT = 'https://spb.hh.ru/resume/35a4985fff0436d6360039ed1f377651424247';
 
 
-    const SUBSTRING_FOR_FIND_SUCCESS         = 'Мор';
-    const SUBSTRING_FOR_FIND_SUCCESS_REMOTE  = 'Web';
+    const SUBSTRING_FOR_FIND_SUCCESS        = 'Мор';
+    const SUBSTRING_FOR_FIND_SUCCESS_REMOTE = 'Web';
 
 
     const SUBSTRING_FOR_FIND_UNSUCCESS = 'sd2ddsdf324d';
@@ -46,7 +47,6 @@ class ValidatorTest extends TestCase {
     }
 
 
-
     public function testUnSuccessMimeType() {
 
         $finder = new SubStringFinder();
@@ -67,8 +67,6 @@ class ValidatorTest extends TestCase {
             self::FILE_NAME_TXT
         );
     }
-
-
 
 
     /**

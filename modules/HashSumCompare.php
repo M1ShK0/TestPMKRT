@@ -1,10 +1,10 @@
 <?php
 
-namespace SubStringFinder\modules;
+namespace SubStringFinder;
 
 use Exception;
-use SubStringFinder\config\config;
-use SubStringFinder\modules\Validator;
+use Config\config;
+use SubStringFinder\Validator;
 use SubStringFinder\SubStringFinder;
 
 

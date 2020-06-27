@@ -11,6 +11,13 @@
             "email": "petrovmichail6@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "SubStringFinder\\": "modules/",
+            "Config\\": "config/",
+            "Tests\\": "tests/"
+        }
+    },
     "license": "MIT",
     "description" : "test task for promokrot"
 }

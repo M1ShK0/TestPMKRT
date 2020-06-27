@@ -1,6 +1,6 @@
 <?php
 
-namespace SubStringFinder\config;
+namespace Config;
 
 use Symfony\Component\Yaml\Yaml;
 

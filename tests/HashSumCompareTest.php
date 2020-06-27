@@ -1,14 +1,10 @@
 <?php
-
-
-namespace SubstringFinder\tests;
-
-require __DIR__ . "/../modules/HashSumCompare.php";
+namespace Tests;
 
 use Exception;
 use PHPUnit\Framework\TestCase;
-use SubStringFinder\config\config;
-use SubStringFinder\modules\HashSumCompare;
+use Config\config;
+use SubStringFinder\HashSumCompare;
 use SubStringFinder\SubStringFinder;
 
 

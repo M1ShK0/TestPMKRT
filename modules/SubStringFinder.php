@@ -1,16 +1,13 @@
 <?php
 
-namespace SubStringFinder\modules;
+namespace SubStringFinder;
 
-require __DIR__ . "/../config/config.php";
-require __DIR__ . "/Validator.php";
-require __DIR__ . "/FileLinesReader.php";
 
 use Exception;
 use Generator;
-use SubStringFinder\config\config;
-use SubStringFinder\modules\FileLinesReader;
-use SubStringFinder\modules\Validator;
+use Config\config;
+use SubStringFinder\FileLinesReader;
+use SubStringFinder\Validator;
 
 /**
  * Class SubStringFinder

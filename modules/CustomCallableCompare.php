@@ -1,10 +1,10 @@
 <?php
 
-namespace SubStringFinder\modules;
+namespace SubStringFinder;
 
 
 use Exception;
-use SubStringFinder\config\config;
+use Config\config;
 
 class CustomCallableCompare {
 

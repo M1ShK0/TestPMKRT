@@ -1,6 +1,6 @@
 <?php
 
-namespace SubStringFinder\modules;
+namespace SubStringFinder;
 
 use Generator;
 use Exception;

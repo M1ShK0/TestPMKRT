@@ -1,13 +1,10 @@
 <?php
-
-namespace SubstringFinder\tests;
-
-require __DIR__ . "/../modules/SubStringFinder.php";
+namespace Tests;
 
 use Exception;
 use PHPUnit\Framework\TestCase;
-use SubStringFinder\config\config;
-use SubStringFinder\modules\SubStringFinder;
+use Config\config;
+use SubStringFinder\SubStringFinder;
 
 
 class SubstringFinderTest extends TestCase {
